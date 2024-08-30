@@ -1,3 +1,26 @@
+#Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chain.
+
+##Intelligence-driven Computer Network Defense:
+- A risk management strategy addressing attackers, their capabilities, objectives.
+- It requires the defender to understand the attacker’s mindset, like you are themselves.
+- Thus, you could implement countermeasures faster.
+
+##Indicators
+There is 3 types of indicators :**Atomic, Computed, Behavioral**
+- Atomic: IP Address, email address, personal identity, social network.
+- Computed: Processing of raw data.
+- Behavioral: collect of Atomatic and computed.
+
+## Kill chain follow these steps:
+- **Reconnaissance**: select target. (Email address, social network).
+- **Weaponization**: sending an automated tool as a trojan.
+- **Delivery**: send the trojan to the target.
+- **Exploitation**: the automated tool triggered and started exploitation of the system vulnerability.
+- **Installation**: install a backdoor for easy access.
+- **C2**: When the installation is done, the intruder can access to target system.
+- **Objectives**: The intruders get what they are aimed for.
+
+
 # Debian detail
 
 ![Alt Virtual machine info](image/general-info.png)
@@ -36,3 +59,7 @@ The progress:
 | Prodive high level view  | Prodive deeper view in each stages  |
 | Focus on the perspective of the attacker  | Focus on the techniques of the attacker  |
 | Help the defender understand how an attacker would act and interrupt at any stage  | Use for entire cybersecurity lifecycle  |
+
+Reference: 
+
+https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
