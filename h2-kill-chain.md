@@ -1,5 +1,7 @@
 # Debian detail
 
+![Alt Virtual machine info](image/general-info.png)
+
 Name: myDebian
 Type: Linus
 Version: 64-bits
@@ -22,8 +24,15 @@ The progress:
 11. Access default site from browser to see if it's working.
 12. Use the command **nano /var/html/public/index.html**, to change some text on the default page.
 13. Use the command **echo -e "GET / HTTP/1.1\r\nHost: localhost\r\nConnection: close\r\n\r\n" | nc localhost 80 > output.html**, to download the page and save it as output.html
+![Alt Attempt download](image/attemp-download.png)
 14. Use the command **/var/log/apache2/access.log**, to check the log file if it succeed or not.
+![Alt Logfile](image/logfile.png)
 
-The different between ATT&CK and Cyber kill chain.
+#The different between ATT&CK and Cyber kill chain.
 
-
+| Cyber skill chain  | ATT&CK |
+| ------------- | ------------- |
+| Designed by Lockheed, not update frequently | Designed by non-profit org, update frequently with the help of the comunity|
+| Prodive high level view  | Prodive deeper view in each stages  |
+| Focus on the perspective of the attacker  | Focus on the techniques of the attacker  |
+| Help the defender understand how an attacker would act and interrupt at any stage  | Use for entire cybersecurity lifecycle  |
