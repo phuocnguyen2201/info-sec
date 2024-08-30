@@ -1,15 +1,15 @@
-#Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chain.
+# Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chain.
 
-##Intelligence-driven Computer Network Defense:
+## Intelligence-driven Computer Network Defense:
 - A risk management strategy addressing attackers, their capabilities, objectives.
 - It requires the defender to understand the attacker’s mindset, like you are themselves.
 - Thus, you could implement countermeasures faster.
 
-##Indicators
+## Indicators
 There is 3 types of indicators :**Atomic, Computed, Behavioral**
-- Atomic: IP Address, email address, personal identity, social network.
-- Computed: Processing of raw data.
-- Behavioral: collect of Atomatic and computed.
+- **Atomic**: IP Address, email address, personal identity, social network.
+- **Computed**: Processing of raw data.
+- **Behavioral**: collect of Atomatic and computed.
 
 ## Kill chain follow these steps:
 - **Reconnaissance**: select target. (Email address, social network).
