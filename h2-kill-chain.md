@@ -63,3 +63,7 @@ The progress:
 Reference: 
 
 https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
+
+https://www.exabeam.com/explainers/mitre-attck/cyber-kill-chain-vs-mitre-attck-4-key-differences-and-synergies/#:~:text=The%20Cyber%20Kill%20Chain%20focuses,the%20techniques%20used%20by%20attackers.
+
+https://www.blackberry.com/us/en/solutions/endpoint-security/mitre-attack/mitre-attack-vs-cyber-kill-chain
