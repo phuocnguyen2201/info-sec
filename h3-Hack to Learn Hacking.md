@@ -25,13 +25,18 @@ https://www.youtube.com/watch?v=i2cJ1vYK5c8
 ![alt Can't fish demo](image.png)
     
 4.  Bandit oh-five
-1. Connect to SSH
-![alt Level 0](image/level-0.PNG)
-2. Looking for first password.
-![alt Level 0](image/level-1.PNG)
-3. Looking for second password.
-![alt Level 0](image/level-2.PNG)
-4. Looking for third password.
-![alt Level 0](image/level-3.PNG)
-5. Looking for fourth password.
-![alt Level 0](image/level-4.PNG)
+
+    1. Connect to SSH
+    ![alt Level 0](image/level-0.PNG)
+
+    2. Looking for first password.
+    ![alt Level 0](image/level-1.PNG)
+
+    3. Looking for second password.
+    ![alt Level 0](image/level-2.PNG)
+
+    4. Looking for third password.
+    ![alt Level 0](image/level-3.PNG)
+
+    5. Looking for fourth password.
+    ![alt Level 0](image/level-4.PNG)
