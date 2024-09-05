@@ -30,13 +30,17 @@ https://www.youtube.com/watch?v=i2cJ1vYK5c8
     ![alt Level 0](image/level-0.PNG)
 
     2. Looking for first password.
-    ![alt Level 0](image/level-1.PNG)
+    ![alt Level 1](image/level-1.PNG)
 
     3. Looking for second password.
-    ![alt Level 0](image/level-2.PNG)
+    ![alt Level 2](image/level-2.PNG)
 
     4. Looking for third password.
-    ![alt Level 0](image/level-3.PNG)
+    ![alt Level 3](image/level-3.PNG)
 
     5. Looking for fourth password.
-    ![alt Level 0](image/level-4.PNG)
+    ![alt Level 4](image/level-4.PNG)
+
+5. Portscan.
+
+![alt Port scan](image/portscan.PNG)
