@@ -43,7 +43,7 @@
 
 ## A02:2021 – Cryptographic Failures
 ### Overview
-1.  Previous known as Sensitive Data Exposure, simply it is an leak sensitive data by bad habit or by acident.
+1.  Previous known as Sensitive Data Exposure, simply it is a leak sensitive data by bad habit or by acident.
 
 ### Example.
 1. CWE-259: Use of Hard-coded Password: when you save the account within the code, instead somewhere else more secure like config file.
