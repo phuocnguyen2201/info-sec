@@ -48,10 +48,13 @@
 ### Example.
 1. CWE-259: Use of Hard-coded Password: when you save the account within the code, instead somewhere else more secure like config file.
 
+**I have been working in Software development for approximately 5 years, and I can see myself did this "bad habbit" as well. So, when i read the definition of this CWE, i could recongnize I'm one of them, and i just want to do a small demo, so everyone could see the problem from my perspective.**
+
 ![alt Example of hard-coded password](image/hard-code-password.png)
 
 2. CWE-327: Broken or Risky Crypto Algorithm, and CWE-331 Insufficient Entropy: the algoritm is not strong enough and could be reverse or descrypt back to orginal information, the encryption pattern is easy to take a guess. 
 
+**Back when I was studying Software Engineering, I was introducted the MD5 encryption and I never use it in the real project, beside academic project. Frankly, when i read the definition, I realized I could using MD5 as a perfcet exmaple to describe the CWE. Moreover, my point here is a strong encryption algorithm, should not be easy to predict the pattern, and decrypt back to original source.**
 
 Figure 1. Encrypt the term "haaga" using MD5.
 
