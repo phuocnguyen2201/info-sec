@@ -67,3 +67,35 @@ Figure 2. Decrypt back to clear text.
 
 ![alt Example of decryption](image/decrypt.png)
 
+1.  ## Install WebGoat 2023.4
+
+![alt WebGoat 2023.4](image/webgoat.png)
+
+2.  ## Developer tools
+
+![alt Example of developer tools](image/developertool.png)
+
+3.  ## Not outdated
+
+![alt Not outdated](image/not-out-date.png)
+
+4.  ## SQLZoo
+    1.  **Select basic**
+
+    ![alt Example of Select basic from 1 - 2](image/SQLZoo-1-2.png)
+
+    ![alt Example of Select basic 3](image/SQLZoo-3.png)
+
+    2.  **Select from World**
+
+    ![alt Example of Select from world ](image/SQLZoo-2.png)
+
+5. ## Portswigger Labs
+
+    1. **SQL injection vulnerability in WHERE clause allowing retrieval of hidden data**
+
+    ![alt Example of select hidden data ](image/hidden-data.png)
+
+    2. **SQL injection vulnerability allowing login bypass**
+
+    ![alt Example of bypass login ](image/bypass-login.png)
