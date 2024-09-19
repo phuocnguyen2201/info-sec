@@ -109,9 +109,39 @@
     ![alt Adding the entry](image/addentry.PNG)
 
     - Perform entering the credential.
-    **IMPORTANT!!! MAKE YOU POINT TO THE RIGHT USERNAME FIELD FIRST, OR ELSE THE AUTO FULL FEATURE WILL PERFORM AT THE WRONG PLACE (Mine was the tool search the entire password on google)**
+    **IMPORTANT!!! MAKE SURE YOU POINT TO THE RIGHT USERNAME FIELD FIRST, OR ELSE THE AUTO FULL FEATURE WILL PERFORM AT THE WRONG PLACE (Mine was the tool search the entire password on google)**
 
     [![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://youtu.be/56Bt6swV5I4)
+
+* ## m. OpenSSL.
+    OpenSSL is a software library for secure communications.
+
+    - **Encrypt**
+
+    ![alt Encrypt the message](image/openssl/encrypt-openssl.PNG)
+
+    echo "this is the message" - this is the original text.
+
+    **enc** like a command to encrypt.
+
+    List of Cipher, i'm gonna choose **aria-192-cbc**
+
+    The only encoding avaible is **base64**.
+
+    ![alt List of cipher](image/openssl/cipher-encoding.PNG)
+
+    - **Verify**, make sure the text is encrypted.
+
+    ![alt Encrypted the message](image/openssl/ecrypted-message.PNG)
+
+    - **Decrypt**
+
+    ![alt Decrypt the message](image/openssl/decrypt-message.PNG)
+
+
+    It is super easy to use, with just 1 line of comment you can have a really strong encrypted message. It is alreay built-in Linux, so I don't have to installing it.
+
+
 
 * ## n. Voluntary bonus: send and receive encrypted message over email.
 
@@ -143,3 +173,45 @@
 - Connect using SSH.
 
 ![alt Connect using ssh](image/connect-via-ssh.png)
+
+* ## s. ETAOIN
+
+    This is the most interesting task this week. At first, I thought i'm not gonna break it, and then I started to notice the pattern.
+
+    - **DHHP://HIYWLMYCTAIA.OWG**
+    This look like an URL and it should be **HTTP**://HIYWLMYCTAIA.**COM**
+    Then I conclusion:
+
+    D = H
+    H = T
+    O = C
+    W = O
+    G = M
+
+    - HDMH'B TH -> THMT'B TT i should be THAT'S IT
+
+    M = A
+    T = I
+    B = S
+
+    - BII KWU MH -> SII KOU AT look like SEE YOU AT
+
+    I = E
+    K = Y
+
+    - And manage to crack a little of the URL **HTTP**://HIYWLMYCTAIA.**COM** - > **HTTP**://TEYOLAYCIAEA.**COM**
+    TEYO -> TERO and i'm be like okay i should be this HTTP://TEROKARVINEN.COM
+
+    We have more cracked characters:
+
+    Y = R
+    A = N
+    L = K
+    C = V
+
+    - At this point I just replace and the message is more than 85% decrypted, and here is the completed decrypted message:
+
+    # THAT'S IT. YOU'RE NOW OFFICIALLY A CODEBREAKER! AS YOU SEE, SIMPLE SUBSTITUTION CIPHERS CAN BE BROKEN WITH FREQUENCY ANALYSTS. SEE YOU AT HTTP://TEROKARVINEN.COM
+
+
+    ![alt ETAOIN](image/ETAOIN.PNG)
