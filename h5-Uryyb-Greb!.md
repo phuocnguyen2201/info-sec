@@ -35,7 +35,17 @@
         - RSA (named for its creators—Rivest, Shamir, and Adleman) is the most popular public-key algorithm
         - DSA (Digital Signature Algorithm, used as part of the Digital Signature Standard) is another public-key algorithm
 
+- **Steganography**
+    Steganography hides secret messages within other messages, making the secret’s existence inconspicuous. Modern techniques involve embedding secret bits in the least significant bits of graphic images, allowing hidden messages without noticeable changes to the image.
 
+- **Substitution Cipher**
+    Substitution Cipher is one in which each character in the plaintext is substituted for another character in the ciphertext. The receiver inverts the substitution on the ciphertext to recover the plaintext.
+    
+- **Transposition Cipher**
+    In a transposition cipher, the plaintext characters are shuffled. In a columnar transposition, the message is written in rows and read vertically to create the ciphertext, and decrypted by reversing this process.
+
+- **One-time pad**
+    Invented in 1917, uses a set of random key letters for encryption, where each key is used only once to encrypt one character of the message. Both sender and receiver have identical pads, and after encryption or decryption, the used keys are destroyed to ensure security.
 
 2. ## CRYPTOGRAPHIC PROTOCOLS.
 
@@ -53,7 +63,63 @@
 
 
 * ## a. Encrypt and decrypt with GNUPG
+    The concept is easy to understand, but when come to practice, I messed it up so many times, anyway I managed to done it:
 
+    - Let gen the key from the first person.
+
+    ![alt First Key](image/gen-key-first-person.png)
+
+    - Export the key.
+
+    ![alt Export the key](image/export-the-first-key.png)
+
+    - Simulate the second person
+
+    ![alt Simulate a fake second person](image/simulate-second-person.png)
+
+    - Send the first key for second person
+
+    ![alt Send the first key for second person](image/import-the-key-and-verify.png)
+
+    - Verify and sign the key.
+
+    ![alt Verify and sign the key](image/after-sign-the-key.png)
+
+    - Now it turn for second person to do previous thing.
+
+    ![alt Gen key from the second person](image/gen-key-second-person.png)
+
+    - Export the key.
+
+    ![alt Export the key](image/export-the-key-from-the-second-person.png)
+
+    - Sign the second key.
+
+    ![alt sign the second key](image/sign-the-second-key.png)
+
+    - **Done!!!! you are secured, now it time for send the message**
+
+    - Encypte the message, and see how it look like when encrypted.
+
+    ![alt Encrypt the message](image/encrypt-the-message-and-verify-encrypted.png)
+
+    - Simulate send the message to first person and decrypt it.
+
+    ![alt Descrypt the message](image/decrypt-the-message.png)
+
+* ## n. Voluntary bonus: send and receive encrypted message over email.
+
+    - Send and encryption.
+    ![alt Encrypt email](image/encrypt-email.png)
+
+    - Receive.
+    ![alt receive email](image/receive.png)
+
+    - Decrypt with options.
+    ![alt Options for decrypt](image/option-decrypt.png)
+
+    - After Decrypt.
+    ![alt The message](image/the-message.png)
 
 * ## o. Frequency distribution of letters for a language
 
