@@ -52,16 +52,6 @@
 - Protocal is a set of steps, that we must follow to achieve something. Moreover, it must be done in the right order.
 - **Basic protocals** is encrypt each of individual conversation with separate key, they trade for each other and using it only for communication.
 
-3. ## PGP - Send Encrypted and Signed Message - gpg
-
-    - Installing it by using the command **sudo apt-get install gpg micro psmisc**
-    - Create a keypari using **gpg --gen-key**, and the program asking in order to enter name, email and secret phrases.
-    - We are done with the first person, export to send to the trusted person.
-    - We do the same for the second person.
-    - We import the key from the first person
-    - Sign it with sign-key
-
-
 * ## a. Encrypt and decrypt with GNUPG
     The concept is easy to understand, but when come to practice, I messed it up so many times, anyway I managed to done it:
 
@@ -106,6 +96,22 @@
     - Simulate send the message to first person and decrypt it.
 
     ![alt Descrypt the message](image/decrypt-the-message.png)
+* ## b. Password Manager
+
+    **Keypass** - no cloud, open source, easy to use.
+
+    - Start up screen. The software devide, credential into 5 different section, like General, Windows, Network, Internet, Email and Homebanking. Right now, i'm gonna focus on Internet because we're all surf alot on it. 
+
+    ![alt Start-up the program](image/ui.PNG)
+
+    - Adding the entry.
+
+    ![alt Adding the entry](image/addentry.PNG)
+
+    - Perform entering the credential.
+    **IMPORTANT!!! MAKE YOU POINT TO THE RIGHT USERNAME FIELD FIRST, OR ELSE THE AUTO FULL FEATURE WILL PERFORM AT THE WRONG PLACE (Mine was the tool search the entire password on google)**
+
+    [![Watch the video]](https://youtu.be/56Bt6swV5I4)
 
 * ## n. Voluntary bonus: send and receive encrypted message over email.
 
