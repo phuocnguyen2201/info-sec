@@ -182,36 +182,44 @@
     This look like an URL and it should be **HTTP**://HIYWLMYCTAIA.**COM**
     Then I conclusion:
 
-    D = H
-    H = T
-    O = C
-    W = O
+    D = H,
+    H = T,
+    O = C,
+    W = O,
     G = M
 
     - HDMH'B TH -> THMT'B TT i should be THAT'S IT
 
-    M = A
-    T = I
+    M = A,
+    T = I,
     B = S
 
     - BII KWU MH -> SII KOU AT look like SEE YOU AT
 
-    I = E
+    I = E,
     K = Y
 
-    - And manage to crack a little of the URL **HTTP**://HIYWLMYCTAIA.**COM** - > **HTTP**://TEYOLAYCIAEA.**COM**
+    - And manage to crack a little of the URL **HTTP**://HIYWLMYCTAIA.**COM** - > **HTTP**://TEYOLAYCIAEA.**COM**,
     TEYO -> TERO and i'm be like okay i should be this HTTP://TEROKARVINEN.COM
 
     We have more cracked characters:
 
-    Y = R
-    A = N
-    L = K
+    Y = R,
+    A = N,
+    L = K,
     C = V
 
     - At this point I just replace and the message is more than 85% decrypted, and here is the completed decrypted message:
 
-    # THAT'S IT. YOU'RE NOW OFFICIALLY A CODEBREAKER! AS YOU SEE, SIMPLE SUBSTITUTION CIPHERS CAN BE BROKEN WITH FREQUENCY ANALYSTS. SEE YOU AT HTTP://TEROKARVINEN.COM
+     **THAT'S IT. YOU'RE NOW OFFICIALLY A CODEBREAKER! AS YOU SEE, SIMPLE SUBSTITUTION CIPHERS CAN BE BROKEN WITH FREQUENCY ANALYSTS. SEE YOU AT HTTP://TEROKARVINEN.COM**
 
 
     ![alt ETAOIN](image/ETAOIN.PNG)
+
+
+    # Reference
+    
+    https://en.wikipedia.org/wiki/Etaoin_shrdlu
+    https://docs.openssl.org/master/man1/openssl/#message-digest-commands
+    https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/08_chap01.html#chap01-sec006
+    https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
