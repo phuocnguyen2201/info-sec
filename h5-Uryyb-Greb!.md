@@ -111,7 +111,7 @@
     - Perform entering the credential.
     **IMPORTANT!!! MAKE YOU POINT TO THE RIGHT USERNAME FIELD FIRST, OR ELSE THE AUTO FULL FEATURE WILL PERFORM AT THE WRONG PLACE (Mine was the tool search the entire password on google)**
 
-    [![Watch the video]](https://youtu.be/56Bt6swV5I4)
+    [![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://youtu.be/56Bt6swV5I4)
 
 * ## n. Voluntary bonus: send and receive encrypted message over email.
 
