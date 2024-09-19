@@ -188,7 +188,7 @@
     W = O,
     G = M
 
-    - HDMH'B TH -> THMT'B TT i should be THAT'S IT
+    - HDMH'B TH -> THMT'B TT it should be THAT'S IT
 
     M = A,
     T = I,
@@ -200,7 +200,7 @@
     K = Y
 
     - And manage to crack a little of the URL **HTTP**://HIYWLMYCTAIA.**COM** - > **HTTP**://TEYOLAYCIAEA.**COM**,
-    TEYO -> TERO and i'm be like okay i should be this HTTP://TEROKARVINEN.COM
+    TEYO -> TERO and i'm be like okay it should be this HTTP://TEROKARVINEN.COM
 
     We have more cracked characters:
 
@@ -218,7 +218,7 @@
 
 
     # Reference
-    
+
     https://en.wikipedia.org/wiki/Etaoin_shrdlu
     https://docs.openssl.org/master/man1/openssl/#message-digest-commands
     https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/08_chap01.html#chap01-sec006
