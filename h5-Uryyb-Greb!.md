@@ -100,7 +100,7 @@
 
     **Keypass** - no cloud, open source, easy to use.
 
-    - Start up screen. The software devide, credential into 5 different section, like General, Windows, Network, Internet, Email and Homebanking. Right now, i'm gonna focus on Internet because we're all surf alot on it. 
+    - Start up screen. The software devide credentials into 5 different section, like General, Windows, Network, Internet, Email and Homebanking. Right now, i'm gonna focus on Internet because we're all surf alot on it. 
 
     ![alt Start-up the program](image/ui.PNG)
 
@@ -139,7 +139,7 @@
     ![alt Decrypt the message](image/openssl/decrypt-message.PNG)
 
 
-    It is super easy to use, with just 1 line of comment you can have a really strong encrypted message. It is alreay built-in Linux, so I don't have to installing it.
+    It is super easy to use, with just 1 line of command you can have a really strong encrypted message. It is already built-in Linux, so I don't have to installing it.
 
 
 
