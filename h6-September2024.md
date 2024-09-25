@@ -14,3 +14,33 @@
 - How the program know to verify correctly the password? Decryption the password everytime when user logining? that would take a lot of their time, so no.
 - The program simply just very the previous hashed stored password with the hashing when user trying to logining, same hashing same ciphertext, then the program can verify it.
 
+## a/ Install Hashcat
+## PROBLEM
+- Can't find the hashcat, the apt-get keep return 404
+
+![alt Not Found](image/h6/notfound.PNG)
+
+- Succeed to install from github, but another problem taking place which is the limitation of VirtualBox, its can't fully access the hardware.
+
+![alt Hardware problem](image/h6/hardware-problem.PNG)
+
+- The only option that available is hashcat on windows. The password is **summer**
+
+![alt result cracking password](image/h6/result.PNG)
+
+## b/ Crack this hash: d595b2086532422bbe654bc07ea030df
+
+- ## NOTES: I CAN'T INSTALL HASHCAT ON DEBIAN.
+- ## MANAGED TO INSTALL FROM GITHUB BUT THE VIRTUALBOX CAN'T FULLY ACCESS TO HARDWARE (GPU) SO IT CAN'T CRACKING THE HASH. SO I COMBINED TOOL THAT WORK ON BOTH OS.
+
+- Identify the hash type.
+
+![alt identify the hash](image/h6/identify.PNG)
+
+- The crack command 
+
+![alt Command](image/h6/command.PNG)
+
+- The result (The red underline is the hash code and the password), password is **disobey**
+
+![alt Result](image/h6/infomation.PNG)
