@@ -15,8 +15,8 @@
 - The program simply just very the previous hashed stored password with the hashing when user trying to logining, same hashing same ciphertext, then the program can verify it.
 
 ## a/ Install Hashcat
-## PROBLEM
-- Can't find the hashcat, the apt-get keep return 404
+## PROBLEMS
+- Can't find the hashcat, the apt-get update command keep return 404
 
 ![alt Not Found](image/h6/notfound.PNG)
 
@@ -44,3 +44,41 @@
 - The result (The red underline is the hash code and the password), password is **disobey**
 
 ![alt Result](image/h6/infomation.PNG)
+
+## m/ Compile John the Ripper, Jumbo version
+
+- Installation process
+
+![alt configuration command](image/h6/configuration.png)
+
+- Compilation
+
+![alt compilation process](image/h6/compilation.png)
+
+- Check the scriptes provided by John the Ripper
+
+![alt scripts from john the ripper](image/h6/check-the-scripts.png)
+
+- Test run.
+
+![alt a test run](image/h6/start-up-the-machine.png)
+
+## n/ Crack a zip file password
+
+- Create a zip file with password using 7zip (you can see the password in the command, but let's just pretend you don't know it)
+
+![alt Result](image/h6/zip-with-password.png)
+
+- Create hash file
+
+![alt create hash file](image/h6/hash-the-zip-file.png)
+
+- Cracking the file's password
+
+![alt cracking the file's password](image/h6/cracking-the-second-password.png)
+
+## o/ Crack a pdf password
+
+
+
+
