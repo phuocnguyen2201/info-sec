@@ -33,7 +33,7 @@
 - ## NOTES: I CAN'T INSTALL HASHCAT ON DEBIAN.
 - ## MANAGED TO INSTALL FROM GITHUB BUT THE VIRTUALBOX CAN'T FULLY ACCESS TO HARDWARE (GPU) SO IT CAN'T CRACKING THE HASH. SO I COMBINED TOOL THAT WORK ON BOTH OS.
 
-- Identify the hash type.
+- Identify the hash type. (Let's just choose md5 with mode is 0)
 
 ![alt identify the hash](image/h6/identify.PNG)
 
@@ -79,6 +79,19 @@
 
 ## o/ Crack a pdf password
 
+- Create pdf hash file with **pdf2john.pl**.
 
+![alt create the hash file](image/h6/create-hash-pdf.PNG)
 
+- Check the hash file is correct format.
+
+![alt check the hash file format](image/h6/check-hash-file.PNG)
+
+- And the result.
+
+![alt the result](image/h6/the-result.PNG)
+
+- Open the file.
+
+![alt open the file](image/h6/final-view.PNG)
 
