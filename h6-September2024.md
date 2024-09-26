@@ -73,7 +73,7 @@
 
 ![alt create hash file](image/h6/hash-the-zip-file.png)
 
-- Cracking the file's password
+- Cracking the file's password, you can see the password is in **orange**.
 
 ![alt cracking the file's password](image/h6/cracking-the-second-password.png)
 
@@ -83,7 +83,7 @@
 
 ![alt create the hash file](image/h6/create-hash-pdf.PNG)
 
-- Check the hash file is correct format.
+- Check the hash file if the format is correct.
 
 ![alt check the hash file format](image/h6/check-hash-file.PNG)
 
@@ -95,3 +95,10 @@
 
 ![alt open the file](image/h6/final-view.PNG)
 
+# Reference
+
+- https://terokarvinen.com/information-security/#h6-september2024
+- https://terokarvinen.com/2023/crack-file-password-with-john/
+- https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
+- https://github.com/benjamin-awd/pdf2john/blob/main/README.md
+- https://infosecscout.com/install-hashcat-on-windows/
