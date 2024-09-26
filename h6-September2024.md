@@ -24,7 +24,7 @@
 
 ![alt Hardware problem](image/h6/hardware-problem.PNG)
 
-- The only option that available is hashcat on windows. The password is **summer**
+- The only option that available is windows. The password is **summer**
 
 ![alt result cracking password](image/h6/result.PNG)
 
